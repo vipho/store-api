@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "sizes",
+  "info": {
+    "name": "Size"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

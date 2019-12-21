@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_price_prices",
+  "info": {
+    "name": "price",
+    "icon": "wine-glass"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "size": {
+      "unique": true,
+      "model": "size"
+    }
+  }
+}

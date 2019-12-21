@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "info",
+  "info": {
+    "name": "info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}

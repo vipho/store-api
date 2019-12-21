@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "product": {
+      "model": "product"
+    },
+    "color": {
+      "model": "color"
+    },
+    "size": {
+      "model": "size"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "city": {
+      "type": "string"
+    },
+    "post": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}

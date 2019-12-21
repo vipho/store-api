@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "colors",
+  "info": {
+    "name": "Color"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "color": {
+      "via": "colors",
+      "model": "product"
+    }
+  }
+}

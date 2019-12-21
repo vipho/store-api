@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.price"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "colors": {
+      "collection": "color",
+      "via": "color"
+    }
+  }
+}
