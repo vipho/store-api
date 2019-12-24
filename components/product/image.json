@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "image",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "model": "color"
+    },
+    "size": {
+      "model": "size"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_product_images"
+}

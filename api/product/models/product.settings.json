@@ -15,17 +15,16 @@
     "prices": {
       "type": "component",
       "repeatable": true,
-      "component": "price.price"
-    },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
+      "component": "product.price"
     },
     "colors": {
       "collection": "color",
       "via": "color"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.image"
     }
   }
 }
