@@ -37,6 +37,10 @@
     },
     "comment": {
       "type": "text"
+    },
+    "status": {
+      "type": "integer",
+      "default": 1
     }
   }
 }
