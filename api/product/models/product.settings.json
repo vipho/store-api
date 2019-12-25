@@ -17,14 +17,13 @@
       "repeatable": true,
       "component": "product.price"
     },
-    "colors": {
-      "collection": "color",
-      "via": "color"
-    },
     "images": {
       "type": "component",
       "repeatable": true,
       "component": "product.image"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

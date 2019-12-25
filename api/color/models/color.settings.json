@@ -11,10 +11,6 @@
   "attributes": {
     "value": {
       "type": "string"
-    },
-    "color": {
-      "via": "colors",
-      "model": "product"
     }
   }
 }
